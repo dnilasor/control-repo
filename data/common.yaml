@@ -1,2 +1,6 @@
 ---
 message: "This node is using common data"
+lookup_options:
+ "^cd4pe::root_config::root_password$":
+    convert_to: "Sensitive"
+ 
