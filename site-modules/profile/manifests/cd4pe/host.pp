@@ -1,11 +1,11 @@
 class profile::cd4pe::host (
   ) {
-    include cd4pe
+    contain cd4pe
 
-    class { 'discovery_stopped':
-      service { 'discovery.service:
-        enable => false,
-      }
+    service { 'discovery.service':
+      ensure => stopped,
+      enable => false,
+      before => Class['cd4pe'],
     }
-    }
+  }
   
