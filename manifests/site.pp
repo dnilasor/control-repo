@@ -30,3 +30,8 @@ node default {
   # Example:
   #   class { 'my_class': }
 }
+
+node gitlab.puppet.vm {
+  include role::cd4pe
+}
+
