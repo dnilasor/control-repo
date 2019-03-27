@@ -14,8 +14,7 @@ mod 'puppetlabs-chocolatey', '3.0.0'
 mod 'puppetlabs-powershell', '2.1.5'
 mod 'puppetlabs-registry', '2.0.2'
 
-# Use roles/profiles instead
-# mod 'puppetlabs-cd4pe', :latest
+mod 'puppetlabs-cd4pe', :latest
 # Requirements for cd4pe
 mod 'puppetlabs-hocon', '1.0.1'
 mod 'puppetlabs-puppet_authorization', '0.5.0'
