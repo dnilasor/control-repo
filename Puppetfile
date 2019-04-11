@@ -23,7 +23,7 @@ mod 'puppetlabs-apt', '6.2.1'
 mod 'puppetlabs-translate', '1.1.0'
 
 # Firewalld
-mod 'crayfishx-firewalld', '3.4.0'
+# mod 'crayfishx-firewalld', '3.4.0'
 
 
 # Modules from Git
