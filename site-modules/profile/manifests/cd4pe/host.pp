@@ -14,7 +14,7 @@ class profile::cd4pe::host {
   firewalld_rich_rule {'allow cd4pe traffic':
     ensure => present,
     zone => 'public',
-    source => '172.18.0/16',
+    source => '172.20.0.3/16',
     action => 'accept',
   }
 }
